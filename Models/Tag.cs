@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using Dapper.Contrib.Extensions;
 
-namespace Blog.Models
+namespace SQLServerProject.Models
 {
     [Table("[Tag]")]
     public class Tag

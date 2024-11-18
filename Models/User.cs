@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using Dapper.Contrib.Extensions;
 
-namespace Blog.Models
+namespace SQLServerProject.Models
 {
     [Table("[User]")]
     public class User
