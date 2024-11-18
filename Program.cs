@@ -15,12 +15,7 @@ namespace SQLServerProject
             using var connection = new SqlConnection(CONNECTION_STRING);
             var repository = new Repository<User>(connection);
 
-            // CreateUser(repository);
-            // UpdateUser(repository);
-            // DeleteUser(repository);
-            // ReadUser(repository);
-            // ReadUsers(repository);
-            Functions.ReadWithRoles(connection);
+            
         }
     }
 }
